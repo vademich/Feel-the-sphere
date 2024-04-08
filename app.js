@@ -8,7 +8,8 @@ app.use(function (req, res, next) {
 });
 
 app.get('/texture', function (req, res) {
-    res.sendFile(__dirname + '/static/textures/NormalMap.png');
+    // res.sendFile(__dirname + '/static/textures/NormalMap.png');
+    res.sendFile(__dirname + '/static/textures/3d.jpeg');
 });
 
 app.get('/', (req, res) => {
